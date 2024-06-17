@@ -74,7 +74,7 @@ const Header = () => {
 
   return (
     <>
-      <Box sx={{ flexGrow: 1 }} height={"4rem"}>
+      <Box sx={{ flexGrow: 1 }} height={{ xs: "3.4rem", sm: "4rem" }}>
         <AppBar
           position="static"
           sx={{
