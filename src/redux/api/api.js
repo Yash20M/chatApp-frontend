@@ -143,7 +143,7 @@ const api = createApi({
     }),
 
     deletChat: builder.mutation({
-      query: (chatId) => ({
+      query: ({chatId}) => ({
         url: `chat/${chatId}`,
         method: "DELETE",
         credentials: "include",
