@@ -183,7 +183,7 @@ const Chat = ({ chatId, user }) => {
         padding={"1rem"}
         spacing={"1rem"}
         bgcolor={colorGray}
-        height="90%"
+        height={{ xs: "85%", sm: "90%" }}
         sx={{
           overflowX: "hidden",
           overflowY: "auto",
